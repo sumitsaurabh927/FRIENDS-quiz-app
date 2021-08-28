@@ -1,4 +1,4 @@
-### Are you a FRIENDS fan?
+### Are you a F.R.I.E.N.D.S. fan?
 
 This is a quiz app for people to test whether or not they are a true friends fan. You will find the link to play the game below:
 
