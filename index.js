@@ -24,8 +24,8 @@ var highScores=[
 ]
 
 var score=0;
-
-
+console.log("This quiz has a total of 8 questions divided into two sections.\n To play this, please enter your ")
+var username=prompt("name: ")
 console.log(chalk.bgCyan("Score 20 or above to play level 2!\n\n\n"))
 for(i=0;i<questions.length;i++){
   console.log(questions[i]);
@@ -40,7 +40,7 @@ for(i=0;i<questions.length;i++){
   if(score>=20 && i===3){
     console.log(chalk.green("You're now playig level 2!\n"))
     levelTwo();
-    console.log(chalk.yellow("\n\n\n\n\nYour final score is "+score))
+    console.log(chalk.yellow("\n\n\n\n\nYour final score is "+score +" "+username))
     
     for(j=0;j<=highScores.length -1;j++){
       console.log(chalk.yellow("\nOther high scorers are: "+highScores[j].name+" -> "+highScores[j].score))
